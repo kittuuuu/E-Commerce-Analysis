@@ -1,12 +1,12 @@
 # E-Commerce-Analysis
 
 
-Overview
+# Overview
 
 This project performs data analysis on an e-commerce database using Python, MySQL, Pandas, Matplotlib, and Seaborn.
 It provides insights into customer behavior, sales trends, product performance, and seller revenue.
 
-Features / Analysis Performed
+# Features / Analysis Performed
 
 List of unique customer cities and count of customers per state
 
@@ -28,9 +28,9 @@ Cumulative sales per month and year-over-year growth
 
 Top 3 customers by spending each year
 
-Prerequisites
+#Prerequisites
 
-Python 3.x
+Python 
 
 MySQL with ecommerce database containing:
 
@@ -44,7 +44,7 @@ products
 
 payments
 
-Required Python libraries:
+# Required Python libraries:
 
 pip install pandas matplotlib seaborn mysql-connector-python numpy
 
@@ -62,20 +62,20 @@ db = mysql.connector.connect(
 )
 
 
-Run the script:
+# Run the script:
 
 python ecommerce_analysis.py
 
 
 View output tables and charts in your Python IDE or Jupyter Notebook.
 
-Visualization
+# Visualization
 
 Bar charts: Customers per state, Orders per month, Seller revenue
 
 Seaborn plots: Top customers per year, Monthly order trends
 
-Notes
+# Notes
 
 Some queries, such as customer retention rate, may need debugging.
 
